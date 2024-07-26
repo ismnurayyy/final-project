@@ -73,7 +73,7 @@
     align-items: center;
     gap: 34px; 
 }
-ul{
+.home ul{
     display: flex;
     align-items: center;
     gap: 16px;
@@ -250,4 +250,20 @@ a{
 
 .newsletter button:hover {
     background-color: #00a87a;
+}
+
+.footer{
+    width: 1248px;
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: Montserrat;
+    display: flex;
+    padding-top: 144px;
+    padding-right: 140px;
+    gap: 170px;
+
+}
+.footer-column{
+    flex-direction: column;
+    gap: 30px;
 }
